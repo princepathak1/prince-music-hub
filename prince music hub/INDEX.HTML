@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince Music Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Prince Music Hub 🎶</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#genres">Genres</a></li>
+                <li><a href="#upload">Upload Music</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="intro">
+            <h2>Welcome to Prince Music Hub</h2>
+            <p>Explore music from Desi, Danceable, Brotherhood, and Haryanvi Swag genres 🎧🎤</p>
+            <img src="music-image.png" alt="Music Image" class="intro-img">
+        </div>
+    </section>
+
+    <section id="genres">
+        <h2>Explore Music Genres</h2>
+        <div class="genre-list">
+            <div class="genre">
+                <h3>Desi 🎶</h3>
+                <img src="desi-genre.jpg" alt="Desi Genre" class="genre-img">
+                <p>Feel the pulse of traditional beats mixed with modern vibes.</p>
+            </div>
+            <div class="genre">
+                <h3>Danceable 💃</h3>
+                <img src="danceable-genre.jpg" alt="Danceable Genre" class="genre-img">
+                <p>Groove to beats that make you move!</p>
+            </div>
+            <div class="genre">
+                <h3>Brotherhood 🤝</h3>
+                <img src="brotherhood-genre.jpg" alt="Brotherhood Genre" class="genre-img">
+                <p>Music that brings us together!</p>
+            </div>
+            <div class="genre">
+                <h3>Haryanvi Swag 💥</h3>
+                <img src="haryanvi-swag-genre.jpg" alt="Haryanvi Swag Genre" class="genre-img">
+                <p>Music that packs a punch with swag!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="upload">
+        <h2>Upload Your Music</h2>
+        <p>Share your latest tracks with the world 🎶</p>
+        <form action="" method="POST" enctype="multipart/form-data">
+            <input type="file" name="music" accept="audio/*" required><br><br>
+            <input type="text" name="title" placeholder="Song Title" required><br><br>
+            <input type="text" name="artist" placeholder="Artist Name" required><br><br>
+            <button type="submit">Upload Music</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <p>Follow us on Instagram: <a href="https://instagram.com/prince.pathak1" target="_blank">@prince.pathak1</a></p>
+    </section>
+
+    <footer>
+        <p>© 2024 Prince Music Hub | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
